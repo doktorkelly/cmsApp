@@ -10,8 +10,8 @@ namespace cmsApp.Services
     {
         private static IEnumerable<Blog> Blogs = new List<Blog>() {
             new Blog(1, "title1", "content1", DateTime.Now),
-            new Blog(1, "title1", "content1", DateTime.Now),
-            new Blog(1, "title1", "xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx ", DateTime.Now)
+            new Blog(1, "title2", "content2", DateTime.Now),
+            new Blog(1, "title3", "xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx ", DateTime.Now)
         };
 
         public IEnumerable<Blog> FindAll()
